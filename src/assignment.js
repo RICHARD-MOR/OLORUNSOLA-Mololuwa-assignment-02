@@ -15,33 +15,13 @@ const assignment = {};
  */
 function sumOfNumbers(arrayOfNumbers) {
     let sum = 0;
-    for(let i = 0; i<= arrayOfNumbers.length-1; i++){
+for(let i = 0; i<= arrayOfNumbers.length-1; i++){
       sum += arrayOfNumbers[i];
-    }
-    return sum;
+   }
+   return sum;
 }
- //console.log(sumOfNumbers());
-assignment.sumOfNumbers = sumOfNumbers;
 
-/**
- * Challenge - 2
- * 
- * Count all even numbers within an array of numbers.
- * If you did Challenge - 2, remove the comment in the line just after this function
- * 
- * @param {Array} arrayOfNumbers the array containing even or non-even numbers
- * @returns number the count of even numbers
- */
-function countEvenNumbers(arrayOfNumbers) {
-  let numOfEvenNumbers = 0;
-  for (let numbers = 0;  numbers < arrayOfNumbers.length;  numbers++) {
-    if(arrayOfNumbers[numbers]%2==0) numOfEvenNumbers+=1;
-  }
-  let stmt = `the count of even numbers within the array is: ${numOfEvenNumbers} `
-    return stmt;
-}
- //console.log(countEvenNumbers());
-assignment.countEvenNumbers = countEvenNumbers;
+assignment.sumOfNumbers=sumOfNumbers;
 
 /**
  * Challenge - 3
@@ -57,18 +37,21 @@ assignment.countEvenNumbers = countEvenNumbers;
  * @param {Array} arrayOfNumbers the array containing temperatures in Celsius to be converted
  * @returns Array the converted temperatures in Fahrenheit
  */
+assignment.sumOfNumbers = sumOfNumbers;
+
 function celsiusToFahrenheit(arrayOfNumbers) {
   let divisor = 9/5;
-    for(let i = 0; i < arrayOfNumbers.length; i++){
-      let addition = arrayOfNumbers[i] * divisor;
-      let fahrenheit = addition + 32;
-      let roundedValue = Math.round(fahrenheit);
+   for(let i = 0; i < arrayOfNumbers.length; i++){
+     let multiplication = arrayOfNumbers[i] * divisor;
+     let fahrenheit = multiplication + 32;
+   let roundedValue = Math.round(fahrenheit);
       arrayOfNumbers[i] = roundedValue;
-    }
-    return arrayOfNumbers;
-}
-//console.log(celsiusToFahrenheit());
+   }
+   return arrayOfNumbers;
+  }
 assignment.celsiusToFahrenheit = celsiusToFahrenheit;
+  
+ 
 
 
 // ========================
