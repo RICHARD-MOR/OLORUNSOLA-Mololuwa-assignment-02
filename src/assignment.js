@@ -20,6 +20,7 @@ for(let i = 0; i<= arrayOfNumbers.length-1; i++){
    }
    return sum;
 }
+console.log(sumOfNumbers(1, 2, 3, 4, 5, 6, 7, 8, 9, 10));
 assignment.sumOfNumbers=sumOfNumbers;
 
 /**
