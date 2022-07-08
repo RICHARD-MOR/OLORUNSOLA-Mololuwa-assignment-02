@@ -20,8 +20,8 @@ function sumOfNumbers(arrayOfNumbers) {
     }
     return sum;
 }
-// console.log(sumOfNumbers());
-//assignment.sumOfNumbers = sumOfNumbers;
+ //console.log(sumOfNumbers());
+assignment.sumOfNumbers = sumOfNumbers;
 
 /**
  * Challenge - 2
@@ -40,8 +40,8 @@ function countEvenNumbers(arrayOfNumbers) {
   let stmt = `the count of even numbers within the array is: ${numOfEvenNumbers} `
     return stmt;
 }
-// console.log(countEvenNumbers());
-//assignment.countEvenNumbers = countEvenNumbers;
+ //console.log(countEvenNumbers());
+assignment.countEvenNumbers = countEvenNumbers;
 
 /**
  * Challenge - 3
@@ -67,8 +67,8 @@ function celsiusToFahrenheit(arrayOfNumbers) {
     }
     return arrayOfNumbers;
 }
-// console.log(celsiusToFahrenheit());
-//assignment.celsiusToFahrenheit = celsiusToFahrenheit;
+//console.log(celsiusToFahrenheit());
+assignment.celsiusToFahrenheit = celsiusToFahrenheit;
 
 
 // ========================
