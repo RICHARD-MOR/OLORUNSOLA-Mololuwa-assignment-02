@@ -30,7 +30,7 @@ function celsiusToFahrenheit(arrayOfNumbers) {
    for(let i = 0; i < arrayOfNumbers.length; i++){
      let multiplication = arrayOfNumbers[i] * divisor;
      let fahrenheit = multiplication + 32;
-   let roundedValue = Math.round(fahrenheit);
+   let roundedValue = Math.trunc(fahrenheit);
       arrayOfNumbers[i] = roundedValue;
    }
    return arrayOfNumbers;
